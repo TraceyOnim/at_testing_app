@@ -6,6 +6,11 @@ use Mix.Config
 # The watchers configuration can be used to run external
 # watchers to your application. For example, we use it
 # with webpack to recompile .js and .css sources.
+
+config :at_tester,
+  at_api_key: "",
+  username: "sandbox"
+
 config :at_tester, AtTesterWeb.Endpoint,
   http: [port: 4000],
   debug_errors: true,
