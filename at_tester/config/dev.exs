@@ -8,7 +8,7 @@ use Mix.Config
 # with webpack to recompile .js and .css sources.
 
 config :at_tester,
-  at_api_key: "",
+  at_api_key: "4f37ec093a3926fdd926cb5c86908367562e08df7eac05df06acdc0b96739ec7",
   username: "sandbox"
 
 config :at_tester, AtTesterWeb.Endpoint,
